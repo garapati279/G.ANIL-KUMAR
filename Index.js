@@ -1,4 +1,3 @@
-
 let userForm = document.getElementById("user_form");
 let userEntryUNPARSED = localStorage.getItem('userEntries');
 let userEntry = userEntryUNPARSED ? JSON.parse(userEntryUNPARSED) : [];
